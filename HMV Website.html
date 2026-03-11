@@ -242,19 +242,13 @@ img{max-width:100%;height:auto;display:block}a{color:inherit;text-decoration:non
 .legal-close{position:absolute;top:16px;right:16px;width:40px;height:40px;border-radius:50%;background:var(--l1);border:1px solid var(--brl);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .3s}
 .legal-close:hover{background:var(--b);color:#fff;border-color:var(--b)}
 
-/* STICKY CTA BAR (top, after 300px scroll) */
-.cta-bar{position:fixed;top:var(--nh);left:0;right:0;z-index:998;display:flex;align-items:center;justify-content:center;gap:20px;padding:12px 24px;background:linear-gradient(135deg,var(--d1),var(--d2));border-bottom:1px solid var(--brd);transform:translateY(-100%);opacity:0;transition:transform .4s var(--e),opacity .4s var(--e)}
-.cta-bar.v{transform:translateY(0);opacity:1}
-.cta-bar span{color:var(--tw);font-size:14px;font-weight:500}
-.cta-bar .bp{padding:10px 22px;font-size:13px}
-
 /* STICKY CALL BUTTON (bottom right) */
 .stk{position:fixed;bottom:24px;right:24px;z-index:900;display:flex;align-items:center;gap:10px;padding:14px 26px;background:var(--b);color:#fff;border-radius:100px;font-weight:600;font-size:14px;box-shadow:0 8px 30px rgba(40,163,182,.35);transition:all .35s var(--e);opacity:0;pointer-events:none;transform:translateY(20px)}
 .stk.v{opacity:1;pointer-events:all;transform:translateY(0)}.stk:hover{background:var(--bl);transform:translateY(-3px)}.stk svg{width:18px;height:18px;flex-shrink:0}.stk-txt{white-space:nowrap}
 
 @media(max-width:1024px){.sg,.ig{grid-template-columns:repeat(2,1fr)}.proztl{flex-wrap:wrap;justify-content:center}.proztl-line{display:none}.prozc{max-width:320px}.crtg{grid-template-columns:repeat(2,1fr)}.advg{grid-template-columns:1fr;gap:40px}.abtg{grid-template-columns:1fr;gap:40px}.abtp{width:280px;margin:0 auto}.cong{grid-template-columns:1fr}.rg{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:768px){.nk{display:none}.mb{display:flex}.hero h1{font-size:clamp(2.2rem,8vw,3.2rem)}.hst{flex-direction:column;gap:16px}.sg,.crtg{grid-template-columns:1fr}.ig{grid-template-columns:repeat(2,1fr)}.rg{grid-template-columns:1fr}.fr{grid-template-columns:1fr}.sp{padding:80px 0}.ftcs{flex-direction:column;gap:28px}.ftbt{flex-direction:column;gap:6px}.stk-txt{display:none}.stk{padding:14px;border-radius:50%}.cta-bar{flex-wrap:wrap;justify-content:center;padding:10px 16px;gap:12px}.cta-bar span{font-size:13px;text-align:center}.ba-content{padding:24px 16px}.ba-metrics{flex-wrap:wrap;gap:16px;justify-content:center}.ba-title{font-size:1.5rem}.ba-score-gauge{width:110px;height:110px}.ba-score-val{font-size:1.5rem}.advv{min-height:320px}.advv-inner{padding:24px}.cb{font-size:3.2rem}.cr{flex-wrap:wrap;gap:20px;justify-content:center}.sh{margin-bottom:40px}}
-@media(max-width:480px){.ig{grid-template-columns:1fr}.c,.cw{padding:0 16px}.cta-bar span{font-size:12px}.cta-bar .bp{padding:8px 16px;font-size:12px}.stk{bottom:16px;right:16px}.ba-score-wrap{margin-bottom:24px}.ba-score-gauge{width:90px;height:90px}.ba-score-val{font-size:1.25rem}.proztl{margin-left:0;padding-left:0}.prozc{margin-left:48px}.prozn{width:44px;height:44px;left:-48px;font-size:1.2rem}.proztl-line{left:21px;top:44px}.ic{padding:24px 12px}.ic-acc-inner{padding:12px 16px 20px}.sc{padding:28px 20px}.abtp{width:100%;max-width:280px}.abtpb{font-size:12px;padding:8px 16px}.crtc{padding:28px 16px}.fqq{padding:16px 18px;font-size:.9rem}.cnf{padding:24px 20px}.legal-overlay{padding:16px}.legal-box{padding:24px}}
+@media(max-width:768px){.nk{display:none}.mb{display:flex}.hero h1{font-size:clamp(2.2rem,8vw,3.2rem)}.hst{flex-direction:column;gap:16px}.sg,.crtg{grid-template-columns:1fr}.ig{grid-template-columns:repeat(2,1fr)}.rg{grid-template-columns:1fr}.fr{grid-template-columns:1fr}.sp{padding:80px 0}.ftcs{flex-direction:column;gap:28px}.ftbt{flex-direction:column;gap:6px}.stk-txt{display:none}.stk{padding:14px;border-radius:50%}.ba-content{padding:16px 12px}.ba-icon svg{width:40px;height:40px;margin-bottom:10px}.ba-title{font-size:1.2rem}.ba-sub{font-size:.75rem;margin-bottom:12px}.ba-metrics{flex-wrap:wrap;gap:12px;justify-content:center}.ba-metric-val{font-size:1.2rem}.ba-metric-lbl{font-size:.6rem}.bah{width:44px;height:44px}.bah svg{width:20px;height:20px}.babl{font-size:10px;padding:6px 12px;bottom:12px}.bas{border-radius:20px}.ba-score-gauge{width:110px;height:110px}.ba-score-val{font-size:1.5rem}.advv{min-height:320px}.advv-inner{padding:24px}.cb{font-size:3.2rem}.cr{flex-wrap:wrap;gap:20px;justify-content:center}.sh{margin-bottom:40px}}
+@media(max-width:480px){.ig{grid-template-columns:1fr}.c,.cw{padding:0 16px}.stk{bottom:16px;right:16px}.ba-content{padding:12px 10px}.ba-icon svg{width:32px;height:32px;margin-bottom:6px}.ba-title{font-size:1rem}.ba-sub{font-size:.7rem;margin-bottom:8px}.ba-metrics{flex-direction:column;gap:8px;align-items:center}.ba-metric-val{font-size:1rem}.ba-metric-lbl{font-size:.55rem}.bah{width:38px;height:38px}.bah svg{width:16px;height:16px}.babl{font-size:9px;padding:5px 10px;bottom:8px}.bas{border-radius:16px}.ba-score-wrap{margin-bottom:20px}.ba-score-gauge{width:90px;height:90px}.ba-score-val{font-size:1.25rem}.proztl{margin-left:0;padding-left:0}.prozc{margin-left:48px}.prozn{width:44px;height:44px;left:-48px;font-size:1.2rem}.proztl-line{left:21px;top:44px}.ic{padding:24px 12px}.ic-acc-inner{padding:12px 16px 20px}.sc{padding:28px 20px}.abtp{width:100%;max-width:280px}.abtpb{font-size:12px;padding:8px 16px}.crtc{padding:28px 16px}.fqq{padding:16px 18px;font-size:.9rem}.cnf{padding:24px 20px}.legal-overlay{padding:16px}.legal-box{padding:24px}}
 </style>
 </head>
 <body>
@@ -330,7 +324,7 @@ img{max-width:100%;height:auto;display:block}a{color:inherit;text-decoration:non
 
 <!-- ABOUT with real photo -->
 <section class="abt sp" id="ueber-uns"><div class="c"><div class="abtg"><div class="abtp rv">
-<div class="abtpi"><img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;w=500" alt="Jakob Vötter" loading="lazy"></div>
+<div class="abtpi"><img src="images/jakob-voetter.png" alt="Jakob Vötter" loading="lazy"></div>
 <div class="abtpb">Zertifizierter IFS-Manager</div>
 </div><div class="abtc rv d2"><div class="sl">Über uns</div><h2 class="st">Vom Koch zum <span class="tg">Hygieneexperten</span></h2>
 <p>Willkommen bei HygieneManagement Vötter. Ich, Jakob Vötter, stehe Ihnen mit meiner Expertise im Bereich der Lebensmittelsicherheit und Hygiene persönlich zur Seite.</p>
@@ -379,12 +373,9 @@ img{max-width:100%;height:auto;display:block}a{color:inherit;text-decoration:non
 <!-- STICKY CTA - correct phone number -->
 <a href="tel:+436801176380" class="stk" id="stk" title="Jetzt anrufen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.81.36 1.61.68 2.37a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.76.32 1.56.55 2.37.68A2 2 0 0 1 22 16.92z"/></svg><span class="stk-txt">Anrufen</span></a>
 
-<!-- CTA BAR (top, after scroll) -->
-<div class="cta-bar" id="ctaBar"><span>Kostenlosen Hygiene-Check anfragen</span><a href="#kontakt" class="bp">Jetzt anfragen<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></div>
-
 <script>
 const nav=document.getElementById('nav'),stk=document.getElementById('stk');
-window.addEventListener('scroll',function(){nav.classList.toggle('sc',scrollY>60);stk.classList.toggle('v',scrollY>600);document.getElementById('ctaBar').classList.toggle('v',scrollY>300)},{passive:true});
+window.addEventListener('scroll',function(){nav.classList.toggle('sc',scrollY>60);stk.classList.toggle('v',scrollY>600)},{passive:true});
 const mb=document.getElementById('mbtn'),mm=document.getElementById('mmenu');
 mb.addEventListener('click',function(){mb.classList.toggle('on');mm.classList.toggle('op')});
 function cm(){mb.classList.remove('on');mm.classList.remove('op')}
